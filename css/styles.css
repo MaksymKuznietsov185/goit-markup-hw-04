@@ -305,8 +305,8 @@ bottom: -1px;
 
 }
 
-.team-social-links:hover,
-.team-social-links:focus {
+.social-links:hover,
+.social-links:focus {
   background-color: #404bbf;
 }
 
@@ -471,9 +471,9 @@ bottom: -1px;
   justify-content: space-between;
 }
 
-.social-links:hover,
-.social-links:focus {
-    background-color: #31d0aa;
+.footer-social-link:hover,
+.footer-social-link:focus {
+  background-color: #31d0aa;
 }
 
 .footer-social-medias-title {
@@ -485,7 +485,7 @@ bottom: -1px;
   margin-bottom: 16px;
 }
 
-.social-links-list {
+.footer-social-links-list {
   display: flex;
   gap: 16px;
   padding: 0;
@@ -493,9 +493,13 @@ bottom: -1px;
   list-style: none;
 }
 
+.footer-social-item {
+  width: 40px;
+  height: 40px;
+}
 
-.social-icons {
-    fill:#f4f4fd; 
-    width: 24px;
-    height: 24px;
+.footer-social-icons {
+  fill: #f4f4fd;
+  width: 24px;
+  height: 24px;
 }
