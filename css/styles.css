@@ -263,13 +263,11 @@ bottom: -1px;
   gap: 24px;
 }
 
-.team-card:first-child img {
-  position: relative;
-  left: -20px; 
+.team-card:first-child {
+  border-radius: 0px 0px 4px 4px;
 }
 
 .team-card {
-  border-radius: 0px 0px 4px 4px;
   background-color: #fff;
   width: calc((100% - 72px) / 4);
   border-radius: 0 0 4px 4px;
@@ -309,7 +307,7 @@ bottom: -1px;
 
 .social-links:hover,
 .social-links:focus {
-  background-color:#404bbf;
+  background-color: #404bbf;
 }
 
 .social-icons{
@@ -451,6 +449,10 @@ bottom: -1px;
   color: #f4f4fd;
 }
 
+.container-footer{
+  margin-right: 120px;
+}
+
 .footer-text {
   max-width: 264px;
   font-weight: 400;
@@ -467,11 +469,6 @@ bottom: -1px;
   margin: 0 auto;
   padding: 0 20px;
   justify-content: space-between;
-  margin-right: 120px;
-}
-
-.container-foot.footer {
-    margin-right: 120px;
 }
 
 .social-links:hover,
