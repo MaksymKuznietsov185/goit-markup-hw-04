@@ -280,11 +280,11 @@ bottom: -1px;
 
 }
 
-.social-links-list{
-  display: flex;
-  justify-content: center;
-  gap: 24px; 
-  margin-top: 8px;
+.social-links-list {
+  display: flex;      
+  gap:24px;           
+  justify-content: center;  
+  margin-top: 8px;    
 }
 
 .social-links-item {
@@ -305,8 +305,8 @@ bottom: -1px;
 
 }
 
-.social-links:hover,
-.social-links:focus {
+.team-social-links:hover,
+.team-social-links:focus {
   background-color: #404bbf;
 }
 
