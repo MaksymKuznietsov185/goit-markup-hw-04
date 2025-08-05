@@ -139,6 +139,16 @@ bottom: -1px;
   padding: 188px 0;
   background-color: #2e2f42;
   text-align: center;
+  background-image: linear-gradient(
+    rgba(46, 47, 66, 0.7),
+    rgba(46, 47, 66, 0.7)
+    ),
+    url(/images/people-office.jpg);
+    max-width: 1440px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: auto;
 }
 
 .hero-title {
@@ -245,6 +255,19 @@ bottom: -1px;
   width: calc((100% - 72px) / 4);
   border-radius: 0 0 4px 4px;
   overflow: hidden;
+}
+
+.social-links-list{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.social-icons{
+  background-color:#4d5ae5;
+  border-radius: 50%;
+  fill: #fff;
+  flex-shrink: 0;
 }
 
 .text-container {
