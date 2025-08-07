@@ -457,7 +457,7 @@ bottom: -1px;
   color: #f4f4fd;
 }
 
-.footer-page-container {
+.footer-wrapper {
   display: flex;
   align-items: baseline;
 }
